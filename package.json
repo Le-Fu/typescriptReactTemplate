@@ -1,0 +1,35 @@
+{
+  "name": "typescriptreacttemplate",
+  "version": "1.0.0",
+  "description": "typescript-react-start-kit",
+  "main": "src/app.tsx",
+  "dependencies": {
+    "react-dom": "^16.9.0",
+    "react": "^16.9.0"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0",
+    "webpack": "^4.39.1"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server -d --content-base ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Le-Fu/typescriptReactTemplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "react"
+  ],
+  "author": "Mengsio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Le-Fu/typescriptReactTemplate/issues"
+  },
+  "homepage": "https://github.com/Le-Fu/typescriptReactTemplate#readme"
+}
