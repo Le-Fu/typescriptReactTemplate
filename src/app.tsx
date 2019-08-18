@@ -1,7 +1,8 @@
 import * as React from "react";
 import * as ReactDom from "react-dom";
+import { Hello } from "./components/Hello";
 
 ReactDom.render(
-  <div>Hello, Ting Jio.</div>,
+  <Hello name={'Ts'} />,
   document.getElementById("root")
 )
